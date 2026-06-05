@@ -1,4 +1,6 @@
 import json
+import os
+import sys
 
 class Rule:
     def __init__(self, id_rule, gejala_list, id_penyakit, cf_pakar):
@@ -20,18 +22,37 @@ class RuleBasedReasoning:
         self.penyakit_info = {}
         self.gejala_info = {}
 
-    def tambah_penyakit(self, id_penyakit, nama_penyakit):
-        """ Menambahkan referensi data penyakit """
-        self.penyakit_info[id_penyakit] = nama_penyakit
+    def load_knowledge_base(self, folder_path):
+        """ Memuat data penyakit, gejala, dan rule dari file-file JSON dalam folder AquaCase_Knowledge_Base """
+        penyakit_file = os.path.join(folder_path, 'penyakit.json')
+        gejala_file = os.path.join(folder_path, 'gejala.json')
+        rules_file = os.path.join(folder_path, 'rules.json')
 
-    def tambah_gejala(self, id_gejala, nama_gejala):
-        """ Menambahkan referensi data gejala """
-        self.gejala_info[id_gejala] = nama_gejala
+        # Load Penyakit
+        if os.path.exists(penyakit_file):
+            with open(penyakit_file, 'r', encoding='utf-8') as f:
+                data_penyakit = json.load(f)
+                for p in data_penyakit:
+                    self.penyakit_info[p['kode_penyakit']] = p['nama_penyakit']
 
-    def tambah_rule(self, id_rule, gejala_list, id_penyakit, cf_pakar):
-        """ Menambahkan rule ke dalam Knowledge Base """
-        rule = Rule(id_rule, gejala_list, id_penyakit, cf_pakar)
-        self.rules.append(rule)
+        # Load Gejala
+        if os.path.exists(gejala_file):
+            with open(gejala_file, 'r', encoding='utf-8') as f:
+                data_gejala = json.load(f)
+                for g in data_gejala:
+                    self.gejala_info[g['kode_gejala']] = g['nama_gejala']
+
+        # Load Rules
+        if os.path.exists(rules_file):
+            with open(rules_file, 'r', encoding='utf-8') as f:
+                data_rules = json.load(f)
+                for r in data_rules:
+                    self.rules.append(Rule(
+                        id_rule=r['kode_rule'],
+                        gejala_list=r['gejala'],
+                        id_penyakit=r['kode_penyakit'],
+                        cf_pakar=float(r['cf_pakar'])
+                    ))
 
     def kombinasi_cf(self, cf1, cf2):
         """ 
@@ -61,14 +82,12 @@ class RuleBasedReasoning:
 
         # 1. Evaluasi setiap rule (Menghitung CF Komposit & CF Rule)
         for rule in self.rules:
-            # Mengambil nilai CF user untuk setiap gejala di rule
-            # Jika user tidak menginputkan gejala tersebut, defaultnya 0.0
             cf_user_list = [input_user.get(g, 0.0) for g in rule.gejala_list]
             
             # Kondisi AND: CF Komposit adalah nilai minimum dari semua premis (gejala)
             cf_komposit = min(cf_user_list) if cf_user_list else 0.0
             
-            # Rule terpicu jika CF komposit > 0 (berarti semua gejala dalam rule terpenuhi)
+            # Rule terpicu jika CF komposit > 0
             if cf_komposit > 0:
                 cf_rule = cf_komposit * rule.cf_pakar
                 rules_triggered.append({
@@ -112,55 +131,35 @@ class RuleBasedReasoning:
         }
 
 # ==========================================
-# Contoh Penggunaan / Testing (Sesuai Data di PDF)
+# Contoh Penggunaan / Testing
 # ==========================================
 if __name__ == "__main__":
     rbr = RuleBasedReasoning()
     
-    # --- 1. Membangun Referensi Penyakit ---
-    rbr.tambah_penyakit('P01', 'Motile Aeromonas Septicemia (MAS)')
-    rbr.tambah_penyakit('P02', 'Pseudomonas septicemia')
-    rbr.tambah_penyakit('P03', 'Streptococciosis')
-    rbr.tambah_penyakit('P04', 'Vibrios')
-    rbr.tambah_penyakit('P05', 'Bintik Putih (White Spot)')
-    rbr.tambah_penyakit('P06', 'Trichodiniasis (Gatal)')
-    rbr.tambah_penyakit('P07', 'Gyrodactylosis')
-    rbr.tambah_penyakit('P08', 'Dactylogyrosis')
-    rbr.tambah_penyakit('P09', 'Koi Herpes Virus (KHV)')
-    rbr.tambah_penyakit('P10', 'White Spot Syndrome (WSS)')
-    rbr.tambah_penyakit('P11', 'IHHNV')
-    rbr.tambah_penyakit('P12', 'Saprolegniasis')
-    rbr.tambah_penyakit('P13', 'Mycosis')
-    
-    # --- 2. Membangun Knowledge Base (Rules) ---
-    # Contoh data rule dari pengujian Bab 6.4
-    rbr.tambah_rule('R003', ['G06', 'G05'], 'P01', 0.9)
-    rbr.tambah_rule('R006', ['G01', 'G05'], 'P01', 0.9)
-    rbr.tambah_rule('R007', ['G06', 'G01'], 'P01', 0.9)
-    rbr.tambah_rule('R028', ['G01', 'G05', 'G06'], 'P01', 0.9)
-    rbr.tambah_rule('R150', ['G20', 'G21'], 'P05', 0.9)
+    # 1. Memuat Knowledge Base dari folder JSON temanmu
+    kb_folder = 'AquaCase_Knowledge_Base'
+    rbr.load_knowledge_base(kb_folder)
 
-    # --- 3. Input dari Pengguna ---
-    # Sesuai contoh pada Tabel 6.3
-    gejala_input_user = {
-        'G01': 0.5,
-        'G05': 0.7,
-        'G06': 0.4,
-        'G09': 0.3
-    }
+    # 2. Menerima Input dari Pengguna
+    # Jika program dijalankan dari terminal/backend dan diberi argumen JSON
+    if len(sys.argv) > 1:
+        try:
+            gejala_input_user = json.loads(sys.argv[1])
+        except json.JSONDecodeError:
+            print(json.dumps({"error": "Format input JSON tidak valid."}))
+            sys.exit(1)
+    else:
+        # Default testing sesuai data Tabel 6.3 di Tesis
+        gejala_input_user = {
+            'G01': 0.5,
+            'G05': 0.7,
+            'G06': 0.4,
+            'G09': 0.3
+        }
 
-    # --- 4. Proses Inferensi (Diagnosis) ---
+    # 3. Proses Inferensi (Diagnosis)
     hasil = rbr.diagnosis(gejala_input_user)
 
-    # --- 5. Tampilkan Hasil ---
-    print("=== Hasil Diagnosis RBR-CF (AquaCase Expert) ===")
-    print("\n[+] Rules yang terpicu:")
-    for rt in hasil['rules_triggered']:
-        print(f" - {rt['id_rule']}: Premis={rt['premis']} -> {rt['id_penyakit']} "
-              f"| CF Komposit={rt['cf_komposit']:.2f}, CF Pakar={rt['cf_pakar']}, CF Rule={rt['cf_rule']:.3f}")
-    
-    print("\n[+] Diagnosis Akhir (CF Gabungan):")
-    for res in hasil['diagnosis']:
-        print(f"Penyakit: {res['nama_penyakit']} ({res['id_penyakit']})")
-        print(f"Nilai CF Akhir: {res['cf_akhir']:.4f} ({res['persentase']}%)")
-        print("-" * 50)
+    # 4. Tampilkan Hasil
+    # Format output berupa JSON string agar mudah dibaca oleh Front-End / Backend lain
+    print(json.dumps(hasil, indent=4))
