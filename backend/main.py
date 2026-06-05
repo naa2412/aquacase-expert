@@ -22,13 +22,16 @@ from typing import Optional
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
-# Tambahkan path ke engine dan data
+# Tambahkan path ke engine, backend, dan data
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(BASE_DIR)
 ENGINE_DIR = os.path.join(PROJECT_DIR, "engine")
 DATA_DIR = os.path.join(PROJECT_DIR, "data")
 
+# BASE_DIR wajib ada di sys.path agar 'schemas' bisa diimpor
+# ENGINE_DIR wajib ada agar 'rbr', 'cbr', 'hybrid_fusion' bisa diimpor
 sys.path.insert(0, ENGINE_DIR)
+sys.path.insert(0, BASE_DIR)
 
 from schemas import DiagnoseRequest, HealthResponse
 from rbr import RuleBasedReasoning
