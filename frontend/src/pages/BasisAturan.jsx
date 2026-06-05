@@ -19,8 +19,8 @@ export default function BasisAturan() {
       try {
         setLoading(true);
         const [aturanRes, penyakitRes] = await Promise.all([getAturan(), getPenyakit()]);
-        setAturan(aturanRes.data);
-        setPenyakitList(penyakitRes.data);
+        setAturan(Array.isArray(aturanRes.data) ? aturanRes.data : []);
+        setPenyakitList(Array.isArray(penyakitRes.data) ? penyakitRes.data : []);
       } catch (err) {
         setError(err.userMessage || 'Gagal menghubungi server. Pastikan backend berjalan di port 8000.');
       } finally {

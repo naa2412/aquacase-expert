@@ -15,7 +15,7 @@ export default function BasisKasus() {
       try {
         setLoading(true);
         const res = await getKasus();
-        setKasus(res.data);
+        setKasus(Array.isArray(res.data) ? res.data : []);
       } catch (err) {
         setError(err.userMessage || 'Gagal menghubungi server. Pastikan backend berjalan di port 8000.');
       } finally {

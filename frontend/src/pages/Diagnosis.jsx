@@ -44,8 +44,8 @@ export default function Diagnosis() {
         setLoadingData(true);
         setLoadError('');
         const [ikanRes, gejalaRes] = await Promise.all([getIkan(), getGejala()]);
-        setIkanList(ikanRes.data);
-        setGejalaList(gejalaRes.data);
+        setIkanList(Array.isArray(ikanRes.data) ? ikanRes.data : []);
+        setGejalaList(Array.isArray(gejalaRes.data) ? gejalaRes.data : []);
       } catch (err) {
         setLoadError(err.userMessage || 'Gagal menghubungi server. Pastikan backend berjalan di port 8000.');
       } finally {
