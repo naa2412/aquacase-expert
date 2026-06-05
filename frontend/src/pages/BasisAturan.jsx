@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Search, BookOpen, Filter, ChevronDown, ChevronUp } from 'lucide-react';
+import { Search, BookOpen, Filter, ChevronDown, ChevronUp, ChevronLeft, ChevronRight } from 'lucide-react';
 import { getAturan, getPenyakit } from '../api/client';
 import { SkeletonTable } from '../components/Skeleton';
 
@@ -11,6 +11,8 @@ export default function BasisAturan() {
   const [search, setSearch] = useState('');
   const [filterPenyakit, setFilterPenyakit] = useState('');
   const [expandedId, setExpandedId] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const perPage = 50;
 
   useEffect(() => {
     async function load() {
@@ -42,6 +44,14 @@ export default function BasisAturan() {
       return matchSearch && matchPenyakit;
     });
   }, [aturan, search, filterPenyakit]);
+
+  const totalPages = Math.ceil(filtered.length / perPage);
+  const paginatedData = filtered.slice((currentPage - 1) * perPage, currentPage * perPage);
+
+  // Reset page when filter/search changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search, filterPenyakit]);
 
   if (loading) {
     return (
@@ -144,7 +154,7 @@ export default function BasisAturan() {
               </tr>
             </thead>
             <tbody>
-              {filtered.slice(0, 100).map((r) => {
+              {paginatedData.map((r) => {
                 const isExpanded = expandedId === r.kode_rule;
                 return (
                   <>
@@ -214,15 +224,37 @@ export default function BasisAturan() {
           </div>
         )}
 
-        {filtered.length > 100 && (
+        {totalPages > 1 && (
           <div style={{
-            padding: '12px',
-            textAlign: 'center',
-            color: 'var(--text-muted)',
-            fontSize: '0.82rem',
+            padding: '12px 16px',
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
             borderTop: '1px solid rgba(0,0,0,0.06)',
           }}>
-            Menampilkan 100 dari {filtered.length} aturan. Gunakan filter untuk mempersempit pencarian.
+            <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>
+              Halaman {currentPage} dari {totalPages} ({filtered.length} aturan)
+            </span>
+            <div style={{ display: 'flex', gap: '6px' }}>
+              <button
+                className="btn btn-secondary"
+                style={{ padding: '6px 12px', fontSize: '0.8rem' }}
+                disabled={currentPage === 1}
+                onClick={() => { setCurrentPage(p => p - 1); setExpandedId(null); }}
+              >
+                <ChevronLeft size={16} />
+                Prev
+              </button>
+              <button
+                className="btn btn-secondary"
+                style={{ padding: '6px 12px', fontSize: '0.8rem' }}
+                disabled={currentPage === totalPages}
+                onClick={() => { setCurrentPage(p => p + 1); setExpandedId(null); }}
+              >
+                Next
+                <ChevronRight size={16} />
+              </button>
+            </div>
           </div>
         )}
       </div>

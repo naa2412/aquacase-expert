@@ -545,8 +545,13 @@ export default function Diagnosis() {
                     color: 'var(--text-secondary)',
                     lineHeight: 1.7,
                     whiteSpace: 'pre-wrap',
+                    textAlign: 'justify',
                   }}>
-                    {result.explanation.rekomendasi}
+                    {result.explanation.rekomendasi.split(/(pengobatan|pengendalian)/gi).map((part, i) =>
+                      /^(pengobatan|pengendalian)$/i.test(part)
+                        ? <strong key={i}>{part}</strong>
+                        : part
+                    )}
                   </p>
                 </div>
               )}

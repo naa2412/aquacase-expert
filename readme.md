@@ -17,7 +17,6 @@ Knowledge base diadaptasi dari tesis Hisma Abduh tentang diagnosis penyakit ikan
 ## Cakupan Knowledge Base
 
 Data mencakup:
-
 * 9 jenis ikan
 * 45 gejala
 * 13 penyakit

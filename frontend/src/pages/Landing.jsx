@@ -63,9 +63,9 @@ export default function Landing() {
           margin: '0 auto 32px',
           lineHeight: 1.7,
         }}>
-          Sistem pakar diagnosis penyakit ikan air tawar menggunakan metode
-          hybrid Case-Based Reasoning (CBR) dan Rule-Based Reasoning (RBR)
-          dengan Certainty Factor.
+          Sistem Pakar Diagnosis Penyakit Ikan Air Tawar Menggunakan Metode
+          Hybrid Case-Based Reasoning (CBR) Dan Rule-Based Reasoning (RBR)
+          Dengan Certainty Factor.
         </p>
 
         <Link to="/diagnosis" className="btn btn-primary" style={{
@@ -136,7 +136,7 @@ export default function Landing() {
             {
               icon: Zap,
               title: 'Hybrid Fusion',
-              desc: 'Menggabungkan hasil RBR dan CBR dengan bobot 0.45:0.35:0.20 untuk menghasilkan diagnosis yang lebih akurat dan terjelaskan.',
+              desc: 'Menggabungkan hasil RBR dan CBR dengan bobot 0.45, 0.35, 0.20 untuk menghasilkan diagnosis yang lebih akurat dan terjelaskan.',
               color: '#d97706',
             },
           ].map((feat) => (
@@ -164,22 +164,20 @@ export default function Landing() {
 
       {/* Explanation Facility */}
       <section className="glass-card-static" style={{
-        padding: '32px',
+        padding: '36px 40px',
         textAlign: 'center',
         marginBottom: '48px',
       }}>
-        <Shield size={28} style={{ color: 'var(--color-primary)', marginBottom: '12px' }} />
-        <h3 style={{ marginBottom: '8px' }}>Explanation Facility</h3>
+        <Shield size={32} style={{ color: 'var(--color-primary)', marginBottom: '14px' }} />
+        <h3 style={{ marginBottom: '12px', fontSize: '1.15rem' }}>Explanation Facility</h3>
         <p style={{
-          fontSize: '0.9rem',
+          fontSize: '1rem',
           color: 'var(--text-muted)',
-          maxWidth: '520px',
           margin: '0 auto',
-          lineHeight: 1.65,
+          lineHeight: 1.8,
+          textAlign: 'justify',
         }}>
-          Setiap diagnosis disertai penjelasan transparan: aturan yang aktif,
-          kasus serupa, breakdown perhitungan skor fusion, dan rekomendasi
-          penanganan dari basis pengetahuan.
+          Setiap hasil diagnosis disertai penjelasan lengkap: aturan yang aktif, kasus serupa dari basis kasus, breakdown perhitungan skor hybrid fusion, dan rekomendasi penanganan yang diambil langsung dari basis pengetahuan.
         </p>
       </section>
     </div>
