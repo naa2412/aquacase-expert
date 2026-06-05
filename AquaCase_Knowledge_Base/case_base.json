@@ -1,0 +1,2958 @@
+[
+  {
+    "no": 1,
+    "kode_kasus": "K001",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G01",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 2,
+    "kode_kasus": "K002",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G01",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G05",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 3,
+    "kode_kasus": "K003",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G05",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G03",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 4,
+    "kode_kasus": "K004",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.5
+      },
+      {
+        "kode_gejala": "G05",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G03",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 5,
+    "kode_kasus": "K005",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G01",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G05",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G03",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 6,
+    "kode_kasus": "K006",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G01",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.5
+      }
+    ]
+  },
+  {
+    "no": 7,
+    "kode_kasus": "K007",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G01",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G03",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 8,
+    "kode_kasus": "K008",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G03",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 9,
+    "kode_kasus": "K009",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G01",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G03",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 10,
+    "kode_kasus": "K010",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G03",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G05",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 11,
+    "kode_kasus": "K011",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G03",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 12,
+    "kode_kasus": "K012",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G03",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 13,
+    "kode_kasus": "K013",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 14,
+    "kode_kasus": "K014",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 15,
+    "kode_kasus": "K015",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G05",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 16,
+    "kode_kasus": "K016",
+    "kode_penyakit": "P01",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G05",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G01",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 17,
+    "kode_kasus": "K017",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G07",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 18,
+    "kode_kasus": "K018",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G09",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 19,
+    "kode_kasus": "K019",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.5
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 20,
+    "kode_kasus": "K020",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G07",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 21,
+    "kode_kasus": "K021",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G07",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.5
+      }
+    ]
+  },
+  {
+    "no": 22,
+    "kode_kasus": "K022",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.5
+      },
+      {
+        "kode_gejala": "G09",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 23,
+    "kode_kasus": "K023",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G07",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G09",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 24,
+    "kode_kasus": "K024",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.5
+      },
+      {
+        "kode_gejala": "G07",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 25,
+    "kode_kasus": "K025",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G09",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 26,
+    "kode_kasus": "K026",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G07",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 27,
+    "kode_kasus": "K027",
+    "kode_penyakit": "P02",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G07",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 28,
+    "kode_kasus": "K028",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G10",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 29,
+    "kode_kasus": "K029",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G10",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 30,
+    "kode_kasus": "K030",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 31,
+    "kode_kasus": "K031",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G10",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G11",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 32,
+    "kode_kasus": "K032",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 33,
+    "kode_kasus": "K033",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G11",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.1
+      }
+    ]
+  },
+  {
+    "no": 34,
+    "kode_kasus": "K034",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G10",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 35,
+    "kode_kasus": "K035",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G11",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 36,
+    "kode_kasus": "K036",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G11",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G10",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 37,
+    "kode_kasus": "K037",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G10",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 38,
+    "kode_kasus": "K038",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J06",
+    "jenis_ikan": "Belut",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G11",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 39,
+    "kode_kasus": "K039",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J06",
+    "jenis_ikan": "Belut",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G11",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 40,
+    "kode_kasus": "K040",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J06",
+    "jenis_ikan": "Belut",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G10",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 41,
+    "kode_kasus": "K041",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J06",
+    "jenis_ikan": "Belut",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 42,
+    "kode_kasus": "K042",
+    "kode_penyakit": "P03",
+    "kode_ikan": "J06",
+    "jenis_ikan": "Belut",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G11",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 43,
+    "kode_kasus": "K043",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G15",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 44,
+    "kode_kasus": "K044",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G14",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 45,
+    "kode_kasus": "K045",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G14",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 46,
+    "kode_kasus": "K046",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G14",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G15",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 47,
+    "kode_kasus": "K047",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J09",
+    "jenis_ikan": "Kerapu",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G15",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 48,
+    "kode_kasus": "K048",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J09",
+    "jenis_ikan": "Kerapu",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G15",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 49,
+    "kode_kasus": "K049",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J09",
+    "jenis_ikan": "Kerapu",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G14",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G15",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 50,
+    "kode_kasus": "K050",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J09",
+    "jenis_ikan": "Kerapu",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G15",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G14",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 51,
+    "kode_kasus": "K051",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J09",
+    "jenis_ikan": "Kerapu",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G15",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 52,
+    "kode_kasus": "K052",
+    "kode_penyakit": "P04",
+    "kode_ikan": "J09",
+    "jenis_ikan": "Kerapu",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G14",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G02",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 53,
+    "kode_kasus": "K053",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G18",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 54,
+    "kode_kasus": "K054",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G18",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 55,
+    "kode_kasus": "K055",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G19",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G20",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 56,
+    "kode_kasus": "K056",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G18",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 57,
+    "kode_kasus": "K057",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G19",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 58,
+    "kode_kasus": "K058",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G21",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G19",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 59,
+    "kode_kasus": "K059",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G19",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 60,
+    "kode_kasus": "K060",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G21",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 61,
+    "kode_kasus": "K061",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G18",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G20",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 62,
+    "kode_kasus": "K062",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G18",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G19",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 63,
+    "kode_kasus": "K063",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G21",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G19",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 64,
+    "kode_kasus": "K064",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G18",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G19",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 65,
+    "kode_kasus": "K065",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G21",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 66,
+    "kode_kasus": "K066",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G18",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G21",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 67,
+    "kode_kasus": "K067",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G20",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 68,
+    "kode_kasus": "K068",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G21",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 69,
+    "kode_kasus": "K069",
+    "kode_penyakit": "P05",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G18",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G19",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 70,
+    "kode_kasus": "K070",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G23",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G13",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G25",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 71,
+    "kode_kasus": "K071",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G24",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G13",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 72,
+    "kode_kasus": "K072",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G43",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G13",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 73,
+    "kode_kasus": "K073",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G24",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 74,
+    "kode_kasus": "K074",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G25",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 75,
+    "kode_kasus": "K075",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G25",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G13",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 76,
+    "kode_kasus": "K076",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G24",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G25",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G13",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 77,
+    "kode_kasus": "K077",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G23",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G13",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 78,
+    "kode_kasus": "K078",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G43",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G13",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 79,
+    "kode_kasus": "K079",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G25",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 80,
+    "kode_kasus": "K080",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G43",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G24",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 81,
+    "kode_kasus": "K081",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G23",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 82,
+    "kode_kasus": "K082",
+    "kode_penyakit": "P06",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G24",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 83,
+    "kode_kasus": "K083",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G45",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 84,
+    "kode_kasus": "K084",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G27",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 85,
+    "kode_kasus": "K085",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G26",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.5
+      }
+    ]
+  },
+  {
+    "no": 86,
+    "kode_kasus": "K086",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G45",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 87,
+    "kode_kasus": "K087",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G23",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G27",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 88,
+    "kode_kasus": "K088",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G45",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G23",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 89,
+    "kode_kasus": "K089",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G27",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G26",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.5
+      }
+    ]
+  },
+  {
+    "no": 90,
+    "kode_kasus": "K090",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G23",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G26",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 91,
+    "kode_kasus": "K091",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G27",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.5
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 92,
+    "kode_kasus": "K092",
+    "kode_penyakit": "P07",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G45",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G26",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 93,
+    "kode_kasus": "K093",
+    "kode_penyakit": "P08",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G43",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G23",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 94,
+    "kode_kasus": "K094",
+    "kode_penyakit": "P08",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G26",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G43",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 95,
+    "kode_kasus": "K095",
+    "kode_penyakit": "P08",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G26",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G28",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 96,
+    "kode_kasus": "K096",
+    "kode_penyakit": "P08",
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G43",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G23",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G28",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 97,
+    "kode_kasus": "K097",
+    "kode_penyakit": "P08",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G23",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G26",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G28",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 98,
+    "kode_kasus": "K098",
+    "kode_penyakit": "P08",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G43",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G28",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 99,
+    "kode_kasus": "K099",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G29",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 100,
+    "kode_kasus": "K100",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G31",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G32",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 101,
+    "kode_kasus": "K101",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G30",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 102,
+    "kode_kasus": "K102",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G29",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G32",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 103,
+    "kode_kasus": "K103",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G05",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G29",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 104,
+    "kode_kasus": "K104",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G30",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.5
+      }
+    ]
+  },
+  {
+    "no": 105,
+    "kode_kasus": "K105",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G30",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G32",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G31",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 106,
+    "kode_kasus": "K106",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G29",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 107,
+    "kode_kasus": "K107",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G29",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G30",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G32",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 108,
+    "kode_kasus": "K108",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G05",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G32",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 109,
+    "kode_kasus": "K109",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G06",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G32",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 110,
+    "kode_kasus": "K110",
+    "kode_penyakit": "P09",
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G29",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G30",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G31",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 111,
+    "kode_kasus": "K111",
+    "kode_penyakit": "P10",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G33",
+        "bobot": 0.5
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 112,
+    "kode_kasus": "K112",
+    "kode_penyakit": "P10",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G35",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G34",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 113,
+    "kode_kasus": "K113",
+    "kode_penyakit": "P10",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G34",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 114,
+    "kode_kasus": "K114",
+    "kode_penyakit": "P10",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G35",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G33",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 115,
+    "kode_kasus": "K115",
+    "kode_penyakit": "P10",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G33",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G35",
+        "bobot": 0.7
+      }
+    ]
+  },
+  {
+    "no": 116,
+    "kode_kasus": "K116",
+    "kode_penyakit": "P10",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G33",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G34",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.5
+      }
+    ]
+  },
+  {
+    "no": 117,
+    "kode_kasus": "K117",
+    "kode_penyakit": "P10",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G34",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 118,
+    "kode_kasus": "K118",
+    "kode_penyakit": "P10",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G35",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G34",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 119,
+    "kode_kasus": "K119",
+    "kode_penyakit": "P11",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.6
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 120,
+    "kode_kasus": "K120",
+    "kode_penyakit": "P11",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G36",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 121,
+    "kode_kasus": "K121",
+    "kode_penyakit": "P11",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G36",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 122,
+    "kode_kasus": "K122",
+    "kode_penyakit": "P11",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G36",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 123,
+    "kode_kasus": "K123",
+    "kode_penyakit": "P11",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G36",
+        "bobot": 0.2
+      }
+    ]
+  },
+  {
+    "no": 124,
+    "kode_kasus": "K124",
+    "kode_penyakit": "P11",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.5
+      },
+      {
+        "kode_gejala": "G36",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 125,
+    "kode_kasus": "K125",
+    "kode_penyakit": "P11",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G36",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 126,
+    "kode_kasus": "K126",
+    "kode_penyakit": "P11",
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G17",
+        "bobot": 0.5
+      }
+    ]
+  },
+  {
+    "no": 127,
+    "kode_kasus": "K127",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G40",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G39",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 128,
+    "kode_kasus": "K128",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G39",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G40",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 129,
+    "kode_kasus": "K129",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G38",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 130,
+    "kode_kasus": "K130",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G40",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G38",
+        "bobot": 0.8
+      }
+    ]
+  },
+  {
+    "no": 131,
+    "kode_kasus": "K131",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G39",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 132,
+    "kode_kasus": "K132",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G39",
+        "bobot": 0.9
+      }
+    ]
+  },
+  {
+    "no": 133,
+    "kode_kasus": "K133",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G38",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G39",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G40",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 134,
+    "kode_kasus": "K134",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G39",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G38",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.5
+      }
+    ]
+  },
+  {
+    "no": 135,
+    "kode_kasus": "K135",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G40",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G38",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 136,
+    "kode_kasus": "K136",
+    "kode_penyakit": "P12",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G38",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G40",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G16",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 137,
+    "kode_kasus": "K137",
+    "kode_penyakit": "P13",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.2
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 138,
+    "kode_kasus": "K138",
+    "kode_penyakit": "P13",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G39",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.6
+      }
+    ]
+  },
+  {
+    "no": 139,
+    "kode_kasus": "K139",
+    "kode_penyakit": "P13",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.7
+      },
+      {
+        "kode_gejala": "G08",
+        "bobot": 0.4
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.5
+      }
+    ]
+  },
+  {
+    "no": 140,
+    "kode_kasus": "K140",
+    "kode_penyakit": "P13",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G39",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.3
+      },
+      {
+        "kode_gejala": "G12",
+        "bobot": 0.3
+      }
+    ]
+  },
+  {
+    "no": 141,
+    "kode_kasus": "K141",
+    "kode_penyakit": "P13",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.9
+      },
+      {
+        "kode_gejala": "G04",
+        "bobot": 0.4
+      }
+    ]
+  },
+  {
+    "no": 142,
+    "kode_kasus": "K142",
+    "kode_penyakit": "P13",
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "cf_pakar": 0.9,
+    "gejala": [
+      {
+        "kode_gejala": "G39",
+        "bobot": 0.8
+      },
+      {
+        "kode_gejala": "G41",
+        "bobot": 0.5
+      }
+    ]
+  }
+]

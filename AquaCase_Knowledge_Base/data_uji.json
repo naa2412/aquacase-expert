@@ -1,0 +1,720 @@
+[
+  {
+    "id_uji": "U001",
+    "no": 1,
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "cf_user": 0.7
+      },
+      {
+        "kode_gejala": "G04",
+        "cf_user": 0.5
+      },
+      {
+        "kode_gejala": "G05",
+        "cf_user": 0.8
+      },
+      {
+        "kode_gejala": "G07",
+        "cf_user": 0.5
+      }
+    ],
+    "nilai_rbr": 0.9,
+    "nilai_cbr": 1.0,
+    "diagnosa_penyakit": "Aeromonas Hydrophila",
+    "kode_penyakit": "P01",
+    "hasil_gabungan": 1.0
+  },
+  {
+    "id_uji": "U002",
+    "no": 2,
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "gejala": [
+      {
+        "kode_gejala": "G01",
+        "cf_user": 0.5
+      },
+      {
+        "kode_gejala": "G05",
+        "cf_user": 0.7
+      },
+      {
+        "kode_gejala": "G06",
+        "cf_user": 0.4
+      },
+      {
+        "kode_gejala": "G09",
+        "cf_user": 0.3
+      }
+    ],
+    "nilai_rbr": 0.86,
+    "nilai_cbr": 0.52,
+    "diagnosa_penyakit": "Aeromonas Hydrophila",
+    "kode_penyakit": "P01",
+    "hasil_gabungan": 0.94
+  },
+  {
+    "id_uji": "U003",
+    "no": 3,
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "gejala": [
+      {
+        "kode_gejala": "G02",
+        "cf_user": 0.8
+      },
+      {
+        "kode_gejala": "G03",
+        "cf_user": 0.8
+      },
+      {
+        "kode_gejala": "G08",
+        "cf_user": 0.2
+      }
+    ],
+    "nilai_rbr": 0.72,
+    "nilai_cbr": 1.0,
+    "diagnosa_penyakit": "Aeromonas Hydrophila",
+    "kode_penyakit": "P01",
+    "hasil_gabungan": 1.0
+  },
+  {
+    "id_uji": "U004",
+    "no": 4,
+    "kode_ikan": "J09",
+    "jenis_ikan": "Kerapu",
+    "gejala": [
+      {
+        "kode_gejala": "G12",
+        "cf_user": 0.1
+      },
+      {
+        "kode_gejala": "G13",
+        "cf_user": 0.3
+      },
+      {
+        "kode_gejala": "G14",
+        "cf_user": 0.7
+      }
+    ],
+    "nilai_rbr": null,
+    "nilai_cbr": 0.44,
+    "diagnosa_penyakit": "Vibrios",
+    "kode_penyakit": "P04",
+    "hasil_gabungan": 0.44
+  },
+  {
+    "id_uji": "U005",
+    "no": 5,
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "gejala": [
+      {
+        "kode_gejala": "G20",
+        "cf_user": 0.3
+      },
+      {
+        "kode_gejala": "G21",
+        "cf_user": 0.7
+      }
+    ],
+    "nilai_rbr": 0.27,
+    "nilai_cbr": 0.73,
+    "diagnosa_penyakit": "Bintik putih (White Spot)",
+    "kode_penyakit": "P05",
+    "hasil_gabungan": 0.81
+  },
+  {
+    "id_uji": "U006",
+    "no": 6,
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "gejala": [
+      {
+        "kode_gejala": "G40",
+        "cf_user": 0.4
+      },
+      {
+        "kode_gejala": "G45",
+        "cf_user": 0.9
+      }
+    ],
+    "nilai_rbr": null,
+    "nilai_cbr": 0.56,
+    "diagnosa_penyakit": "Gyrodactylosis",
+    "kode_penyakit": "P07",
+    "hasil_gabungan": 0.56
+  },
+  {
+    "id_uji": "U007",
+    "no": 7,
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "gejala": [
+      {
+        "kode_gejala": "G16",
+        "cf_user": 0.3
+      },
+      {
+        "kode_gejala": "G40",
+        "cf_user": 0.3
+      }
+    ],
+    "nilai_rbr": 0.27,
+    "nilai_cbr": 0.16,
+    "diagnosa_penyakit": "Saprolegniasis",
+    "kode_penyakit": "P12",
+    "hasil_gabungan": 0.39
+  },
+  {
+    "id_uji": "U008",
+    "no": 8,
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "gejala": [
+      {
+        "kode_gejala": "G13",
+        "cf_user": 0.3
+      },
+      {
+        "kode_gejala": "G24",
+        "cf_user": 0.8
+      }
+    ],
+    "nilai_rbr": 0.27,
+    "nilai_cbr": 0.64,
+    "diagnosa_penyakit": "Trichodiniasis (Gatal)",
+    "kode_penyakit": "P06",
+    "hasil_gabungan": 0.75
+  },
+  {
+    "id_uji": "U009",
+    "no": 9,
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "gejala": [
+      {
+        "kode_gejala": "G33",
+        "cf_user": 0.2
+      },
+      {
+        "kode_gejala": "G34",
+        "cf_user": 0.7
+      }
+    ],
+    "nilai_rbr": 0.18,
+    "nilai_cbr": 0.51,
+    "diagnosa_penyakit": "WSS (White spot syndrom)",
+    "kode_penyakit": "P10",
+    "hasil_gabungan": 0.6
+  },
+  {
+    "id_uji": "U010",
+    "no": 10,
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "gejala": [
+      {
+        "kode_gejala": "G26",
+        "cf_user": 0.9
+      },
+      {
+        "kode_gejala": "G27",
+        "cf_user": 0.7
+      }
+    ],
+    "nilai_rbr": 0.63,
+    "nilai_cbr": 1.0,
+    "diagnosa_penyakit": "Gyrodactylosis",
+    "kode_penyakit": "P07",
+    "hasil_gabungan": 1.0
+  },
+  {
+    "id_uji": "U011",
+    "no": 11,
+    "kode_ikan": "J06",
+    "jenis_ikan": "Belut",
+    "gejala": [
+      {
+        "kode_gejala": "G06",
+        "cf_user": 0.3
+      },
+      {
+        "kode_gejala": "G10",
+        "cf_user": 0.8
+      },
+      {
+        "kode_gejala": "G12",
+        "cf_user": 0.2
+      }
+    ],
+    "nilai_rbr": 0.5,
+    "nilai_cbr": 0.54,
+    "diagnosa_penyakit": "Streptococciosis",
+    "kode_penyakit": "P03",
+    "hasil_gabungan": 0.77
+  },
+  {
+    "id_uji": "U012",
+    "no": 12,
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "gejala": [
+      {
+        "kode_gejala": "G18",
+        "cf_user": 0.7
+      },
+      {
+        "kode_gejala": "G19",
+        "cf_user": 0.5
+      },
+      {
+        "kode_gejala": "G20",
+        "cf_user": 0.3
+      }
+    ],
+    "nilai_rbr": 0.78,
+    "nilai_cbr": 0.88,
+    "diagnosa_penyakit": "Bintik putih (White Spot)",
+    "kode_penyakit": "P05",
+    "hasil_gabungan": 0.98
+  },
+  {
+    "id_uji": "U013",
+    "no": 13,
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "gejala": [
+      {
+        "kode_gejala": "G08",
+        "cf_user": 0.1
+      },
+      {
+        "kode_gejala": "G17",
+        "cf_user": 0.2
+      },
+      {
+        "kode_gejala": "G41",
+        "cf_user": 0.8
+      }
+    ],
+    "nilai_rbr": 0.25,
+    "nilai_cbr": 0.86,
+    "diagnosa_penyakit": "IHHN",
+    "kode_penyakit": "P11",
+    "hasil_gabungan": 0.9
+  },
+  {
+    "id_uji": "U014",
+    "no": 14,
+    "kode_ikan": "J09",
+    "jenis_ikan": "Kerapu",
+    "gejala": [
+      {
+        "kode_gejala": "G14",
+        "cf_user": 0.7
+      },
+      {
+        "kode_gejala": "G15",
+        "cf_user": 0.7
+      }
+    ],
+    "nilai_rbr": null,
+    "nilai_cbr": 0.63,
+    "diagnosa_penyakit": "Vibrios",
+    "kode_penyakit": "P04",
+    "hasil_gabungan": 0.63
+  },
+  {
+    "id_uji": "U015",
+    "no": 15,
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "gejala": [
+      {
+        "kode_gejala": "G39",
+        "cf_user": 0.8
+      },
+      {
+        "kode_gejala": "G16",
+        "cf_user": 0.1
+      },
+      {
+        "kode_gejala": "G40",
+        "cf_user": 0.2
+      }
+    ],
+    "nilai_rbr": 0.38,
+    "nilai_cbr": 0.69,
+    "diagnosa_penyakit": "Saprolegniasis",
+    "kode_penyakit": "P12",
+    "hasil_gabungan": 0.81
+  },
+  {
+    "id_uji": "U016",
+    "no": 16,
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "gejala": [
+      {
+        "kode_gejala": "G13",
+        "cf_user": 0.2
+      },
+      {
+        "kode_gejala": "G16",
+        "cf_user": 0.1
+      },
+      {
+        "kode_gejala": "G43",
+        "cf_user": 0.6
+      },
+      {
+        "kode_gejala": "G23",
+        "cf_user": 0.7
+      }
+    ],
+    "nilai_rbr": 0.82,
+    "nilai_cbr": 0.63,
+    "diagnosa_penyakit": "Trichodiniasis (Gatal)",
+    "kode_penyakit": "P06",
+    "hasil_gabungan": 0.94
+  },
+  {
+    "id_uji": "U017",
+    "no": 17,
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "gejala": [
+      {
+        "kode_gejala": "G35",
+        "cf_user": 0.2
+      },
+      {
+        "kode_gejala": "G34",
+        "cf_user": 0.1
+      },
+      {
+        "kode_gejala": "G04",
+        "cf_user": 0.6
+      }
+    ],
+    "nilai_rbr": 0.51,
+    "nilai_cbr": 0.22,
+    "diagnosa_penyakit": "WSS (White spot syndrom)",
+    "kode_penyakit": "P10",
+    "hasil_gabungan": 0.62
+  },
+  {
+    "id_uji": "U018",
+    "no": 18,
+    "kode_ikan": "J06",
+    "jenis_ikan": "Belut",
+    "gejala": [
+      {
+        "kode_gejala": "G12",
+        "cf_user": 0.2
+      },
+      {
+        "kode_gejala": "G11",
+        "cf_user": 0.1
+      },
+      {
+        "kode_gejala": "G04",
+        "cf_user": 0.6
+      }
+    ],
+    "nilai_rbr": 0.32,
+    "nilai_cbr": 0.29,
+    "diagnosa_penyakit": "Streptococciosis",
+    "kode_penyakit": "P03",
+    "hasil_gabungan": 0.52
+  },
+  {
+    "id_uji": "U019",
+    "no": 19,
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang",
+    "gejala": [
+      {
+        "kode_gejala": "G17",
+        "cf_user": 0.1
+      },
+      {
+        "kode_gejala": "G41",
+        "cf_user": 0.9
+      },
+      {
+        "kode_gejala": "G08",
+        "cf_user": 0.2
+      }
+    ],
+    "nilai_rbr": 0.25,
+    "nilai_cbr": 0.89,
+    "diagnosa_penyakit": "IHHN",
+    "kode_penyakit": "P11",
+    "hasil_gabungan": 0.92
+  },
+  {
+    "id_uji": "U020",
+    "no": 20,
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "gejala": [
+      {
+        "kode_gejala": "G09",
+        "cf_user": 0.9
+      },
+      {
+        "kode_gejala": "G04",
+        "cf_user": 0.4
+      }
+    ],
+    "nilai_rbr": 0.36,
+    "nilai_cbr": 0.64,
+    "diagnosa_penyakit": "Pseudomonas septicemia",
+    "kode_penyakit": "P02",
+    "hasil_gabungan": 0.77
+  },
+  {
+    "id_uji": "U021",
+    "no": 21,
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas",
+    "gejala": [
+      {
+        "kode_gejala": "G28",
+        "cf_user": 0.3
+      },
+      {
+        "kode_gejala": "G23",
+        "cf_user": 0.8
+      }
+    ],
+    "nilai_rbr": 0.27,
+    "nilai_cbr": 0.57,
+    "diagnosa_penyakit": "Dactylogyrosis",
+    "kode_penyakit": "P08",
+    "hasil_gabungan": 0.69
+  },
+  {
+    "id_uji": "U022",
+    "no": 22,
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "gejala": [
+      {
+        "kode_gejala": "G29",
+        "cf_user": 0.7
+      },
+      {
+        "kode_gejala": "G31",
+        "cf_user": 0.8
+      },
+      {
+        "kode_gejala": "G06",
+        "cf_user": 0.4
+      }
+    ],
+    "nilai_rbr": 0.9,
+    "nilai_cbr": 0.56,
+    "diagnosa_penyakit": "KHV",
+    "kode_penyakit": "P09",
+    "hasil_gabungan": 0.96
+  },
+  {
+    "id_uji": "U023",
+    "no": 23,
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "gejala": [
+      {
+        "kode_gejala": "G07",
+        "cf_user": 0.5
+      },
+      {
+        "kode_gejala": "G08",
+        "cf_user": 0.2
+      },
+      {
+        "kode_gejala": "G09",
+        "cf_user": 0.4
+      }
+    ],
+    "nilai_rbr": 0.66,
+    "nilai_cbr": 0.43,
+    "diagnosa_penyakit": "Pseudomonas septicemia",
+    "kode_penyakit": "P02",
+    "hasil_gabungan": 0.81
+  },
+  {
+    "id_uji": "U024",
+    "no": 24,
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila",
+    "gejala": [
+      {
+        "kode_gejala": "G09",
+        "cf_user": 0.2
+      },
+      {
+        "kode_gejala": "G02",
+        "cf_user": 0.4
+      },
+      {
+        "kode_gejala": "G07",
+        "cf_user": 0.6
+      }
+    ],
+    "nilai_rbr": 0.64,
+    "nilai_cbr": 0.72,
+    "diagnosa_penyakit": "Pseudomonas septicemia",
+    "kode_penyakit": "P02",
+    "hasil_gabungan": 0.9
+  },
+  {
+    "id_uji": "U025",
+    "no": 25,
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele",
+    "gejala": [
+      {
+        "kode_gejala": "G43",
+        "cf_user": 0.6
+      },
+      {
+        "kode_gejala": "G28",
+        "cf_user": 0.2
+      },
+      {
+        "kode_gejala": "G26",
+        "cf_user": 0.8
+      }
+    ],
+    "nilai_rbr": 0.85,
+    "nilai_cbr": 0.55,
+    "diagnosa_penyakit": "Dactylogyrosis",
+    "kode_penyakit": "P08",
+    "hasil_gabungan": 0.94
+  },
+  {
+    "id_uji": "U026",
+    "no": 26,
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "gejala": [
+      {
+        "kode_gejala": "G32",
+        "cf_user": 0.3
+      },
+      {
+        "kode_gejala": "G05",
+        "cf_user": 0.9
+      }
+    ],
+    "nilai_rbr": null,
+    "nilai_cbr": 0.67,
+    "diagnosa_penyakit": "KHV",
+    "kode_penyakit": "P09",
+    "hasil_gabungan": 0.67
+  },
+  {
+    "id_uji": "U027",
+    "no": 27,
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin",
+    "gejala": [
+      {
+        "kode_gejala": "G41",
+        "cf_user": 0.7
+      },
+      {
+        "kode_gejala": "G12",
+        "cf_user": 0.1
+      }
+    ],
+    "nilai_rbr": null,
+    "nilai_cbr": 0.52,
+    "diagnosa_penyakit": "Mycosis",
+    "kode_penyakit": "P13",
+    "hasil_gabungan": 0.52
+  },
+  {
+    "id_uji": "U028",
+    "no": 28,
+    "kode_ikan": "J06",
+    "jenis_ikan": "Belut",
+    "gejala": [
+      {
+        "kode_gejala": "G11",
+        "cf_user": 0.5
+      },
+      {
+        "kode_gejala": "G10",
+        "cf_user": 0.4
+      },
+      {
+        "kode_gejala": "G06",
+        "cf_user": 0.2
+      },
+      {
+        "kode_gejala": "G08",
+        "cf_user": 0.1
+      }
+    ],
+    "nilai_rbr": 0.7,
+    "nilai_cbr": 0.27,
+    "diagnosa_penyakit": "Streptococciosis",
+    "kode_penyakit": "P03",
+    "hasil_gabungan": 0.79
+  },
+  {
+    "id_uji": "U029",
+    "no": 29,
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi",
+    "gejala": [
+      {
+        "kode_gejala": "G45",
+        "cf_user": 0.9
+      },
+      {
+        "kode_gejala": "G16",
+        "cf_user": 0.3
+      }
+    ],
+    "nilai_rbr": 0.27,
+    "nilai_cbr": 0.56,
+    "diagnosa_penyakit": "Gyrodactylosis",
+    "kode_penyakit": "P07",
+    "hasil_gabungan": 0.68
+  },
+  {
+    "id_uji": "U030",
+    "no": 30,
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami",
+    "gejala": [
+      {
+        "kode_gejala": "G07",
+        "cf_user": 0.6
+      },
+      {
+        "kode_gejala": "G10",
+        "cf_user": 0.3
+      },
+      {
+        "kode_gejala": "G01",
+        "cf_user": 0.3
+      }
+    ],
+    "nilai_rbr": null,
+    "nilai_cbr": 0.54,
+    "diagnosa_penyakit": "Pseudomonas septicemia",
+    "kode_penyakit": "P02",
+    "hasil_gabungan": 0.48
+  }
+]

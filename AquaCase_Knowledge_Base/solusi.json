@@ -1,0 +1,80 @@
+[
+  {
+    "kode_solusi": "S01",
+    "kode_penyakit": "P01",
+    "pengobatan": "Mencampur tepung daun meniran dan tepung bawang putih dengan pakan (pellet) dengan perbandingan 2:1. Alternatif lain menggunakan natrium hipoklorit 1%, kalsium hipoklorit 2%, atau antibiotik seperti kloramfenikol, florfenicol, tetracycline, sulfonamide, nitrofuran derivative, dan asam pyrodinecarboxylic. Ikan juga dapat direndam dalam larutan temulawak yang diaerasi selama 48 jam, atau larutan air pepaya/jambu biji selama 48 jam.",
+    "pengendalian": "Pergantian air dilakukan secara terkontrol dan periodik. Padat tebar diusahakan sesuai carrying capacity kolam agar tidak terjadi gesekan/luka antar ikan. Pencegahan juga dapat dilakukan dengan memberikan desinfektan dan acriflavine pada air kolam sesuai dosis."
+  },
+  {
+    "kode_solusi": "S02",
+    "kode_penyakit": "P02",
+    "pengobatan": "Melakukan perendaman ikan terinfeksi dengan kalium permanganate 10-20 ppm selama 30-60 menit, oxytetracyclin 5 ppm selama 24 jam, larutan emequil 5 ppm selama 24 jam, atau penyuntikan intraperitoneal kanamycin 20-40 mg/kg ikan maupun intramuscular streptomycin 20-40 mg/kg ikan.",
+    "pengendalian": "Memberikan imunostimulan dan mencegah ikan stres."
+  },
+  {
+    "kode_solusi": "S03",
+    "kode_penyakit": "P03",
+    "pengobatan": "Pemberian erythromycin 25 mg/kg bb/hari selama 4-7 hari, pemberian oxytetracyclin dan amphicilin, serta sodium nifurstyrenate 50 mg/kg bb/hari selama 3-5 hari.",
+    "pengendalian": "Memberikan desinfektan ke air kolam sebelum ikan ditebar dan setelah pemeliharaan, memberikan vaksin anti-Streptococcus spp. pada benih ikan, memberikan immunostimulan seperti vitamin C pada pakan, pemeriksaan kesehatan ikan terkontrol, serta perbaikan kualitas air kolam terutama peningkatan frekuensi pergantian air dan pengurangan bahan organik."
+  },
+  {
+    "kode_solusi": "S04",
+    "kode_penyakit": "P04",
+    "pengobatan": "Pemberian antibiotik oxytetracycline 0,5 gram/kg makanan selama 7 hari, sulphonamides 0,5 gram/kg makanan selama 7 hari, chloramphenicol 0,2 gram/kg berat makanan selama 4 hari, serta pemberian iodine pada bagian yang borok sebagai obat oles pertama.",
+    "pengendalian": "Desinfeksi sarana budidaya sebelum dan setelah pemeliharaan, menghindari stres, pemberian imunostimulan rutin selama pemeliharaan seperti vitamin C, melakukan vaksinasi anti-vibriosis, serta pengelolaan kualitas air dan kesehatan ikan secara terpadu."
+  },
+  {
+    "kode_solusi": "S05",
+    "kode_penyakit": "P05",
+    "pengobatan": "Merendam ikan dalam larutan formalin 25 ppm selama 24 jam, larutan garam dapur (NaCl) 10-30 ppm selama 10 menit, larutan methylene blue 1% sebanyak 2-4 cc dalam 4 liter air selama 24 jam, atau larutan garam dapur 1-3 gram/100 cc air selama 10 menit.",
+    "pengendalian": "Menjaga kualitas air dan mengusahakan sirkulasi air kolam mengalir terus-menerus."
+  },
+  {
+    "kode_solusi": "S06",
+    "kode_penyakit": "P06",
+    "pengobatan": "Merendam ikan dalam larutan formalin 40 ppm selama 24 jam atau 150-200 ppm selama 15 menit. Alternatif lain menggunakan Malachite Green 0,1 gr/m3 selama 24 jam.",
+    "pengendalian": "Mempertahankan kualitas air terutama stabilisasi suhu air >= 29 derajat Celsius, mengurangi kadar bahan organik terlarut, terutama pada ikan yang terserang Trichodiniasis dengan tingkat prevalensi dan intensitas rendah."
+  },
+  {
+    "kode_solusi": "S07",
+    "kode_penyakit": "P07",
+    "pengobatan": "Perendaman menggunakan beberapa desinfektan, antara lain larutan garam dapur 500-10.000 ppm selama 24 jam, Kalium Permanganate (PK) 4 ppm selama 12 jam, serta formalin 25-50 ppm selama 24 jam atau lebih.",
+    "pengendalian": "Mempertahankan kualitas air terutama stabilisasi suhu air > 29°C, mengurangi kadar bahan organik terlarut, dan meningkatkan frekuensi pergantian air pada ikan yang terserang Gyrodactylus dengan tingkat prevalensi dan intensitas rendah."
+  },
+  {
+    "kode_solusi": "S08",
+    "kode_penyakit": "P08",
+    "pengobatan": "Perendaman menggunakan larutan Ammonium 1 ppm selama 5-15 menit, Methylene Blue 3 ppm selama 24 jam, Malachite Green 2-3 ppm selama 30-60 menit, Dipretex 200 ppm selama 1 jam, atau Acriflavina 10 ppm selama 1 jam.",
+    "pengendalian": "Melakukan perendaman dengan larutan Formalin 40% 250 ppm selama 1 jam atau perendaman dalam air laut salinitas tinggi 60 ppt selama 15 menit."
+  },
+  {
+    "kode_solusi": "S09",
+    "kode_penyakit": "P09",
+    "pengobatan": "Pengobatan dengan antibiotik. Jika ikan tidak mau makan, dapat diberikan produk probiotik khusus untuk ikan. Pemberian vitamin C dicampurkan ke pakan dengan dosis 500 mg/kg pakan selama pemeliharaan.",
+    "pengendalian": "Naikkan suhu air kolam karantina perlahan-lahan hingga 30°C dan berikan aerasi cukup. Selama masa pengobatan tidak diberi makan dan diberikan antibiotik untuk mencegah infeksi sekunder."
+  },
+  {
+    "kode_solusi": "S10",
+    "kode_penyakit": "P10",
+    "pengobatan": "Pemberian peptidoglukan (PG) dengan dosis 0,2 mg/kg dan menjaga kadar oksigen terlarut (DO) > 3 ppm.",
+    "pengendalian": "Menurunkan suhu air kolam karena sintesis protein virus dipengaruhi suhu, mengatur kualitas air, pengendalian vektor dan karier, serta klorinasi air 30 ppm."
+  },
+  {
+    "kode_solusi": "S11",
+    "kode_penyakit": "P11",
+    "pengobatan": "Berikan vitamin terutama vitamin C dan B, serta mineral melalui pakan.",
+    "pengendalian": "Perbaiki kualitas air dengan penggantian air, probiotik, dolomite, SP-36, pembersihan dasar dengan sifon, serta pemberian zeolite dan probiotik."
+  },
+  {
+    "kode_solusi": "S12",
+    "kode_penyakit": "P12",
+    "pengobatan": "Kalium Permanganate (PK) 1 gram/100 liter air selama 90 menit, formalin 100-200 ppm selama 1-3 jam, garam dapur 1-10 promil tergantung spesies dan ukuran selama 10-60 menit, atau Methylene Blue 3-5 ppm selama 24 jam.",
+    "pengendalian": "Menaikkan dan mempertahankan suhu air >= 35°C dan/atau melakukan penggantian air baru lebih sering."
+  },
+  {
+    "kode_solusi": "S13",
+    "kode_penyakit": "P13",
+    "pengobatan": "Perendaman dalam larutan Malachite Green Oxalate 2-3 gram/m3 air selama 30 menit, diulang sampai tiga hari berturut-turut.",
+    "pengendalian": "Menjaga kualitas air agar kondisinya selalu ideal bagi kehidupan ikan patin. Ikan yang sudah sakit segera diobati."
+  }
+]
