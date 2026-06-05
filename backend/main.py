@@ -45,15 +45,21 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS — izinkan frontend dev server
+# CORS — baca dari env variable ALLOWED_ORIGINS (pisahkan dengan koma)
+# Contoh: ALLOWED_ORIGINS=https://aquacase.vercel.app,https://aquacase-git-main.vercel.app
+_raw_origins = os.environ.get("ALLOWED_ORIGINS", "")
+_extra_origins = [o.strip() for o in _raw_origins.split(",") if o.strip()]
+
+_default_origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:3000",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:3000",
-        "http://127.0.0.1:5173",
-        "http://127.0.0.1:3000",
-    ],
+    allow_origins=list(set(_default_origins + _extra_origins)),
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

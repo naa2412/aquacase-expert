@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000';
+// Saat development: VITE_API_URL tidak di-set, pakai localhost:8000
+// Saat production:  VITE_API_URL diisi URL Railway, misal https://aquacase-production.up.railway.app
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
