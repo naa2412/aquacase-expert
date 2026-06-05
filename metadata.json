@@ -1,0 +1,29 @@
+{
+  "nama_project": "AquaCase Expert - Knowledge Base Sistem Pakar Diagnosis Penyakit Ikan Air Tawar",
+  "sumber": "Tesis Hisma Abduh, Diagnosa Penyakit pada Ikan Air Tawar dengan Metode Rule Based dan Case Based Reasoning, UGM, 2017",
+  "catatan_ekstraksi": "Data diekstrak dari Tabel 3.3, 4.1, 4.2, 4.3, Lampiran A, Lampiran B, dan Tabel 6.5. Kolom raw_condition_codes pada rules menyimpan kode hasil OCR/asli; kolom gejala sudah dinormalisasi berdasarkan nama gejala agar bisa dijalankan di Python.",
+  "jumlah": {
+    "ikan": 9,
+    "penyakit": 13,
+    "gejala": 45,
+    "solusi": 13,
+    "case_base": 142,
+    "rules": 458,
+    "data_uji": 30,
+    "gejala_penyakit_relations": 78
+  },
+  "rbr": {
+    "metode": "Forward chaining + Certainty Factor MYCIN",
+    "cf_rule_default": 0.9,
+    "operator_rule": "AND"
+  },
+  "cbr": {
+    "metode": "Nearest Neighbor similarity",
+    "atribut": [
+      "jenis_ikan",
+      "gejala",
+      "bobot",
+      "cf_pakar"
+    ]
+  }
+}

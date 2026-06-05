@@ -1,0 +1,38 @@
+[
+  {
+    "kode_ikan": "J01",
+    "jenis_ikan": "Nila"
+  },
+  {
+    "kode_ikan": "J02",
+    "jenis_ikan": "Lele"
+  },
+  {
+    "kode_ikan": "J03",
+    "jenis_ikan": "Mas"
+  },
+  {
+    "kode_ikan": "J04",
+    "jenis_ikan": "Gurami"
+  },
+  {
+    "kode_ikan": "J05",
+    "jenis_ikan": "Patin"
+  },
+  {
+    "kode_ikan": "J06",
+    "jenis_ikan": "Belut"
+  },
+  {
+    "kode_ikan": "J07",
+    "jenis_ikan": "Udang"
+  },
+  {
+    "kode_ikan": "J08",
+    "jenis_ikan": "Koi"
+  },
+  {
+    "kode_ikan": "J09",
+    "jenis_ikan": "Kerapu"
+  }
+]

@@ -1,0 +1,210 @@
+{
+  "counts": {
+    "ikan": 9,
+    "penyakit": 13,
+    "gejala": 45,
+    "solusi": 13,
+    "case_base": 142,
+    "rules": 458,
+    "data_uji": 30,
+    "gejala_penyakit_relations": 78
+  },
+  "rules_by_penyakit": {
+    "P01": 45,
+    "P02": 20,
+    "P03": 52,
+    "P04": 13,
+    "P05": 56,
+    "P06": 56,
+    "P07": 52,
+    "P08": 7,
+    "P09": 62,
+    "P10": 31,
+    "P11": 32,
+    "P12": 19,
+    "P13": 13
+  },
+  "cases_by_penyakit": {
+    "P01": 16,
+    "P02": 11,
+    "P03": 15,
+    "P04": 10,
+    "P05": 17,
+    "P06": 13,
+    "P07": 10,
+    "P08": 6,
+    "P09": 12,
+    "P10": 8,
+    "P11": 8,
+    "P12": 10,
+    "P13": 6
+  },
+  "data_uji_by_penyakit": {
+    "P01": 3,
+    "P02": 4,
+    "P03": 3,
+    "P04": 2,
+    "P05": 2,
+    "P06": 2,
+    "P07": 3,
+    "P08": 2,
+    "P09": 2,
+    "P10": 2,
+    "P11": 2,
+    "P12": 2,
+    "P13": 1
+  },
+  "unknown_rule_phrases": [],
+  "code_name_mismatches_corrected_count": 24,
+  "code_name_mismatches_corrected_sample": [
+    [
+      "R010",
+      "Borok",
+      "G02",
+      "G04"
+    ],
+    [
+      "R016",
+      "Borok",
+      "G02",
+      "G04"
+    ],
+    [
+      "R021",
+      "Bercak merah pada tubuh",
+      "G03",
+      "G01"
+    ],
+    [
+      "R101",
+      "Mata Menonjol",
+      "G10",
+      "G12"
+    ],
+    [
+      "R286",
+      "Tubuh berwarna kehitaman",
+      "G45",
+      "G16"
+    ],
+    [
+      "R286",
+      "Menggosokkan tubuh di dinding kolam",
+      "G16",
+      "G27"
+    ],
+    [
+      "R351",
+      "Pembengkakan pada mata",
+      "G05",
+      "G29"
+    ],
+    [
+      "R397",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R401",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R405",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R406",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R408",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R411",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R414",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R415",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R416",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R417",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R420",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R421",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R422",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R423",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R424",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R425",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ],
+    [
+      "R426",
+      "Pendarahan bawah kulit",
+      "G37",
+      "G01"
+    ]
+  ],
+  "case_count_ok": true,
+  "symptom_count_ok": true,
+  "fish_count_ok": true,
+  "disease_count_ok": true,
+  "test_count_ok": true
+}

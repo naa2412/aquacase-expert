@@ -1,0 +1,111 @@
+[
+  {
+    "kode_penyakit": "P01",
+    "nama_penyakit": "Penyakit MAS (Motile Aeromonas Septicemia)",
+    "alias": [
+      "Penyakit Aeromonas Hydrophila"
+    ],
+    "kategori_penyebab": "Bakteri",
+    "kode_solusi": "S01"
+  },
+  {
+    "kode_penyakit": "P02",
+    "nama_penyakit": "Penyakit Pseudomonas septicemia",
+    "alias": [],
+    "kategori_penyebab": "Bakteri",
+    "kode_solusi": "S02"
+  },
+  {
+    "kode_penyakit": "P03",
+    "nama_penyakit": "Penyakit Streptococciosis",
+    "alias": [],
+    "kategori_penyebab": "Bakteri",
+    "kode_solusi": "S03"
+  },
+  {
+    "kode_penyakit": "P04",
+    "nama_penyakit": "Penyakit Vibrios",
+    "alias": [],
+    "kategori_penyebab": "Bakteri",
+    "kode_solusi": "S04"
+  },
+  {
+    "kode_penyakit": "P05",
+    "nama_penyakit": "Penyakit Bintik putih (White Spot)",
+    "alias": [
+      "Bintik putih (White Spot)"
+    ],
+    "kategori_penyebab": "Parasit",
+    "kode_solusi": "S05"
+  },
+  {
+    "kode_penyakit": "P06",
+    "nama_penyakit": "Penyakit Gatal (Trichodiniasis)",
+    "alias": [
+      "Trichodiniasis",
+      "Trichodiniasis (Gatal)"
+    ],
+    "kategori_penyebab": "Parasit",
+    "kode_solusi": "S06"
+  },
+  {
+    "kode_penyakit": "P07",
+    "nama_penyakit": "Penyakit Gyrodactylosis",
+    "alias": [],
+    "kategori_penyebab": "Parasit",
+    "kode_solusi": "S07"
+  },
+  {
+    "kode_penyakit": "P08",
+    "nama_penyakit": "Penyakit Dactylogyrosis",
+    "alias": [],
+    "kategori_penyebab": "Parasit",
+    "kode_solusi": "S08"
+  },
+  {
+    "kode_penyakit": "P09",
+    "nama_penyakit": "Penyakit KHV (Koi Herpes Virus)",
+    "alias": [
+      "KHV"
+    ],
+    "kategori_penyebab": "Virus",
+    "kode_solusi": "S09"
+  },
+  {
+    "kode_penyakit": "P10",
+    "nama_penyakit": "Penyakit WSS (White Spot Syndrome Virus)",
+    "alias": [
+      "WSS",
+      "WSSV",
+      "White spot syndrome",
+      "White spot syndrom"
+    ],
+    "kategori_penyebab": "Virus",
+    "kode_solusi": "S10"
+  },
+  {
+    "kode_penyakit": "P11",
+    "nama_penyakit": "Penyakit IHHN (Infectious Hypodermal and Hematopoietic Necrosis Virus)",
+    "alias": [
+      "IHHNV"
+    ],
+    "kategori_penyebab": "Virus",
+    "kode_solusi": "S11"
+  },
+  {
+    "kode_penyakit": "P12",
+    "nama_penyakit": "Penyakit Saprolegniasis",
+    "alias": [
+      "Saprolegnia"
+    ],
+    "kategori_penyebab": "Jamur",
+    "kode_solusi": "S12"
+  },
+  {
+    "kode_penyakit": "P13",
+    "nama_penyakit": "Penyakit Mycosis",
+    "alias": [],
+    "kategori_penyebab": "Jamur",
+    "kode_solusi": "S13"
+  }
+]
