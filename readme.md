@@ -4,6 +4,10 @@
 
 AquaCase Expert adalah prototipe sistem pakar berbasis web untuk membantu proses diagnosis penyakit ikan air tawar. Sistem ini menggunakan pendekatan hybrid, yaitu menggabungkan Rule-Based Reasoning (RBR) dan Case-Based Reasoning (CBR) agar hasil diagnosis lebih informatif dan dapat dibandingkan dari sisi aturan maupun kasus terdahulu.
 
+## Nama Kelompok
+
+**Sistem Pakar Butuh Buk Kar**
+
 ## Anggota Kelompok
 
 1. Andra Kusnaedi Ilyaz - 24/537757/PA/22793
@@ -20,6 +24,14 @@ Demo sistem dapat diakses melalui:
 
 ```text
 https://aquacase-expert-eosin.vercel.app
+```
+
+## Folder Pengumpulan
+
+Folder pengumpulan berisi video presentasi dan demo, proposal, serta laporan akhir.
+
+```text
+https://drive.google.com/drive/folders/1AsmoDpxuH_6szKrISmLHKA_n5pYosjvB?usp=sharing
 ```
 
 ## Metode yang Digunakan
