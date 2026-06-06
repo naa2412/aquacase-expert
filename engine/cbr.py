@@ -1,6 +1,5 @@
 """
 cbr.py — Case-Based Reasoning (CBR) untuk AquaCase Expert
-=========================================================
 Implementasi siklus 4R (Retrieve, Reuse, Revise, Retain)
 menggunakan NN Similarity (Mancasari, 2012).
 
@@ -102,7 +101,7 @@ class CaseBasedReasoning:
         self._load_case_base(path_case_base)
 
     # ----------------------------------------------------------
-    # LOADER — baca JSON dari disk
+    # LOADER 
     # ----------------------------------------------------------
 
     def _load_json(self, path: str) -> list | dict:
@@ -145,7 +144,7 @@ class CaseBasedReasoning:
                 self.solusi_info[kode] = sol
 
     # ----------------------------------------------------------
-    # RETRIEVE — Hitung NN Similarity (Mancasari, 2012)
+    # RETRIEVE — Hitung NN Similarity
     # ----------------------------------------------------------
 
     def _hitung_similarity(self,
