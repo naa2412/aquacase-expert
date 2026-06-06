@@ -50,7 +50,10 @@ Data yang digunakan dalam sistem mencakup:
 * 30 data uji
 
 ## Arsitektur Sistem
-![Arsitektur Sistem AquaCase Expert](arsitektur_sistem_bg.png)
+<div>
+  <img src="arsitektur_sistem_bg.png" width="30%" alt="Arsitektur Sistem AquaCase Expert">
+</div>
+
 AquaCase Expert terdiri dari beberapa komponen utama berikut.
 
 ### 1. Frontend Web
