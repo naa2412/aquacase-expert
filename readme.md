@@ -50,7 +50,7 @@ Data yang digunakan dalam sistem mencakup:
 * 30 data uji
 
 ## Arsitektur Sistem
-
+![Arsitektur Sistem AquaCase Expert](arsitektur_sistem_bg.png)
 AquaCase Expert terdiri dari beberapa komponen utama berikut.
 
 ### 1. Frontend Web
@@ -87,17 +87,49 @@ Explanation facility digunakan untuk menjelaskan alasan diagnosis. Sistem menamp
 
 Rule-Based Reasoning digunakan untuk mendiagnosis penyakit berdasarkan aturan IF-THEN dari pakar. Setiap rule menghubungkan kombinasi gejala dengan penyakit tertentu. Nilai keyakinan dihitung menggunakan Certainty Factor.
 
+```
+CF_komposit  = min(CF_gejala_1, CF_gejala_2, ..., CF_gejala_n)
+CF_rule      = CF_komposit × CF_pakar
+CF_combine   = CF1 + CF2 × (1 - CF1)   ← jika beberapa rule → penyakit sama
+```
+
 ### Case-Based Reasoning
 
-Case-Based Reasoning digunakan untuk membandingkan kasus baru dengan kasus lama. Jika input pengguna mirip dengan kasus terdahulu, sistem menggunakan kasus tersebut sebagai dasar pendukung diagnosis.
+Case-Based Reasoning digunakan untuk membandingkan kasus baru dengan kasus lama. Jika input pengguna mirip dengan kasus terdahulu, sistem menggunakan kasus tersebut sebagai dasar pendukung diagnosis dan dihitung menggunakan Weighted Nearest Neighbor.
+
+```
+Similarity(S, T) = ( Σ f(Si, Ti) × wi / Σ wi ) × P(S)
+```
 
 ### Hybrid Fusion
 
 Hybrid Fusion digunakan untuk menggabungkan hasil RBR dan CBR menjadi satu skor akhir. Skor akhir mempertimbangkan CF RBR, similarity CBR, dan agreement score.
 
+```
+S_final = (0.45 × CF_RBR) + (0.35 × Sim_CBR) + (0.20 × Agreement)
+ 
+Agreement = 1.0  → RBR dan CBR sepakat
+Agreement = 0.5  → berbeda, selisih < 0.15 (konflik lemah)
+Agreement = 0.0  → konflik signifikan
+```
+
 ### Conflict Handling
 
 Conflict handling digunakan ketika hasil RBR dan CBR berbeda. Sistem membandingkan skor kedua metode. Jika perbedaannya kecil, sistem menampilkan lebih dari satu kandidat diagnosis. Jika perbedaannya besar, sistem mengikuti hasil dengan skor yang lebih kuat.
+
+```
+Δ = |CF_RBR - Sim_CBR|
+ 
+Δ < 0.15  → tampilkan dua kandidat diagnosis + saran validasi pakar
+Δ ≥ 0.15  → ikuti engine dengan skor lebih tinggi
+```
+
+### Status Threshold
+| Status | Kondisi |
+|--------|---------|
+| **Kuat** | S_final ≥ 0.75 |
+| **Sedang** | 0.50 ≤ S_final < 0.75 |
+| **Lemah** | S_final < 0.50 |
 
 ## Alur Diagnosis
 
