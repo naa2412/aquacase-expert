@@ -144,7 +144,7 @@ class RuleBasedReasoning:
             ))
 
     # ----------------------------------------------------------
-    # CERTAINTY FACTOR — operasi kombinasi
+    # CERTAINTY FACTOR 
     # ----------------------------------------------------------
 
     @staticmethod
