@@ -11,14 +11,6 @@ OUTPUT WAJIB:
     - fusion_breakdown   : komponen skor per bobot
     - status_threshold   : "Kuat" >= 0.75 / "Sedang" 0.50-0.74 / "Lemah" < 0.50
     - rekomendasi        : lookup field 'penanganan' di KB (bukan hardcoded)
-
-AUDIT LOG:
-    [FIX-7]  Rekomendasi diambil dari solusi.json, bukan hardcoded
-    [FIX-8]  Field 'rules_aktif' diubah ke 'rules_triggered' (sesuai output RBR)
-             + konversi ke teks IF-THEN dari lookup KB
-    [FIX-9]  similarity_score diambil dari 'similarity_best' (field yang benar)
-    [FIX-10] status_threshold 3-level: Kuat >= 0.75 / Sedang 0.50-0.74 / Lemah < 0.50
-    [FIX-11] Copy-paste bug di fusion breakdown: bobot_cbr_dipakai pakai self.w_cbr
 """
 
 from typing import Optional
@@ -48,7 +40,6 @@ class ExplanationFacility:
         self.w_cbr = w_cbr
         self.w_agreement = w_agreement
         self.threshold = threshold
-        # [FIX-7] Akses langsung ke data KB untuk lookup solusi
         self.solusi_info = solusi_info or {}
         self.penyakit_info = penyakit_info or {}
         self.rules_data = rules_data or []
@@ -75,7 +66,6 @@ class ExplanationFacility:
             "cbr_analysis": self._build_cbr_details(cbr_raw),
             "fusion_breakdown": self._build_fusion_breakdown(best_match) if best_match else None,
             "conflict_analysis": self._build_conflict_details(kandidat_konflik) if is_conflict else None,
-            # [FIX-7] Rekomendasi dari KB, bukan hardcoded
             "rekomendasi": self._get_recommendation(best_match, is_conflict)
         }
 
@@ -98,7 +88,6 @@ class ExplanationFacility:
                 ),
                 "skor_akhir": None,
                 "is_threshold_passed": False,
-                # [FIX-10] 3-level threshold
                 "status_threshold": "Konflik"
             }
 
@@ -115,7 +104,6 @@ class ExplanationFacility:
         cf_rbr = best.get('cf_rbr', 0.0)
         sim_cbr = best.get('sim_cbr', 0.0)
 
-        # [FIX-10] 3-level status threshold sesuai spesifikasi
         if skor >= 0.75:
             status = "Kuat"
         elif skor >= 0.50:
@@ -146,12 +134,10 @@ class ExplanationFacility:
         # Cari CF score untuk penyakit target dari output RBR
         cf_score = 0.0
         for diag in rbr_raw.get('diagnosis', []):
-            # [FIX-2/8] Field yang benar: 'kode_penyakit'
             if diag.get('kode_penyakit') == target_pid:
                 cf_score = diag['cf_akhir']
                 break
 
-        # [FIX-8] Ambil rules yang terpicu dari field yang benar
         rules_triggered = rbr_raw.get('rules_triggered', [])
 
         # Filter rules yang relevan dengan penyakit target
@@ -210,7 +196,6 @@ class ExplanationFacility:
                 "gejala_tidak_cocok": []
             }
 
-        # [FIX-9] Field yang benar: 'similarity_best'
         similarity = top_case.get('similarity_best', 0.0)
 
         # Bangun top_similar_cases dari top_kasus di cbr_raw
@@ -262,7 +247,6 @@ class ExplanationFacility:
                 "bobot_rbr": self.w_rbr,
                 "skor_cf_rbr": round(cf_rbr, 4),
                 "kontribusi_rbr": round(self.w_rbr * cf_rbr, 4),
-                # [FIX-11] Sebelumnya self.w_rbr — sekarang self.w_cbr
                 "bobot_cbr": self.w_cbr,
                 "skor_sim_cbr": round(sim_cbr, 4),
                 "kontribusi_cbr": round(self.w_cbr * sim_cbr, 4),
