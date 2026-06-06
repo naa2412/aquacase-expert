@@ -77,14 +77,12 @@ class HybridFusionEngine:
         cbr_result = self.cbr.diagnosis(kode_ikan, gejala_input, top_n=5)
 
         # 2. Ambil ID Penyakit Teratas dari masing-masing engine
-        # [FIX-2] RBR output pakai 'kode_penyakit', bukan 'id_penyakit'
         top_rbr_id = (rbr_result['diagnosis'][0]['kode_penyakit']
                       if rbr_result.get('diagnosis') else None)
         top_cbr_id = (cbr_result['diagnosis_utama']['kode_penyakit']
                       if cbr_result.get('diagnosis_utama') else None)
 
         # 3. Ekstraksi Skor per penyakit
-        # [FIX-2] Field 'kode_penyakit' konsisten
         rbr_scores = {
             d['kode_penyakit']: max(0.0, min(1.0, d['cf_akhir']))
             for d in rbr_result.get('diagnosis', [])
@@ -105,7 +103,6 @@ class HybridFusionEngine:
             cf_rbr = rbr_scores.get(pid, 0.0)
             sim_cbr = cbr_scores.get(pid, 0.0)
 
-            # [FIX-3] Agreement Logic 3-level sesuai spesifikasi:
             #   1.0 — RBR dan CBR sepakat penyakit ini sebagai top-1
             #   0.5 — keduanya berbeda, tapi selisih skor < 0.15 (konflik lemah)
             #   0.0 — keduanya berbeda, selisih skor >= 0.15 (konflik kuat)
@@ -172,7 +169,6 @@ class HybridFusionEngine:
         best_match = fused_results[0]
 
         # --- CONFLICT HANDLING LOGIC ---
-        # [FIX-4] Threshold konflik sesuai spesifikasi: 0.15
         is_conflict = False
         kandidat_konflik = []
 
@@ -217,7 +213,6 @@ class HybridFusionEngine:
                     ]
 
         # --- EXPLANATION FACILITY ---
-        # [FIX-6] Pass solusi_info dan rules_data ke ExplanationFacility
         explainer = ExplanationFacility(
             w_rbr=self.w_rbr,
             w_cbr=self.w_cbr,
@@ -237,7 +232,6 @@ class HybridFusionEngine:
             kandidat_konflik=kandidat_konflik
         )
 
-        # [FIX-5] Output sesuai API contract
         return {
             'is_conflict': is_conflict,
             'diagnosis_akhir': best_match if not is_conflict else None,
