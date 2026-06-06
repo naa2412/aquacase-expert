@@ -1,7 +1,7 @@
 """
 schemas.py — Pydantic v2 Models untuk AquaCase Expert API
 =========================================================
-Mendefinisikan request/response schemas sesuai API contract.
+Mendefinisikan request/response schemas sesuai API.
 """
 
 from pydantic import BaseModel, Field
