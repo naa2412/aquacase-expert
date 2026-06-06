@@ -19,7 +19,7 @@ Sistem digunakan dengan cara memilih jenis ikan, memilih gejala yang diamati, da
 Demo sistem dapat diakses melalui:
 
 ```text
-https://aquacase-expert-eosin.vercel.app/diagnosis
+https://aquacase-expert-eosin.vercel.app
 ```
 
 ## Metode yang Digunakan
