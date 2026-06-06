@@ -16,13 +16,6 @@ CONFLICT HANDLING:
     Konflik LEMAH: id berbeda + selisih < 0.15  → tampilkan 2 kandidat
     Konflik KUAT:  id berbeda + selisih >= 0.15  → wajib validasi pakar
 
-AUDIT LOG:
-    [FIX-1] Bobot fusion diubah dari (0.3, 0.5, 0.2) ke (0.45, 0.35, 0.20)
-    [FIX-2] Field 'id_penyakit' diubah ke 'kode_penyakit' agar konsisten dengan RBR output
-    [FIX-3] Agreement logic dari binary (1.0/0.0) ke 3-level (1.0/0.5/0.0)
-    [FIX-4] Conflict threshold dari 0.10 ke 0.15 sesuai spesifikasi
-    [FIX-5] Output ditambah field 'is_conflict' dan 'kandidat_konflik' sesuai API contract
-    [FIX-6] Nama penyakit fallback diperbaiki, solusi di-pass ke explanation
 """
 
 import json
