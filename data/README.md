@@ -4,7 +4,6 @@ Folder ini berisi knowledge base hasil ekstraksi dari tesis Hisma Abduh tentang 
 
 Isi folder:
 
-* `README.md`: penjelasan isi folder dan catatan penting knowledge base.
 * `knowledge_base.json`: semua data knowledge base dalam satu file gabungan.
 * `metadata.json`: informasi ringkas tentang sumber data, jumlah data, dan struktur knowledge base.
 * `ikan.json`: data 9 jenis ikan air tawar.
