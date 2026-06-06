@@ -28,7 +28,7 @@ https://aquacase-expert-eosin.vercel.app
 
 ## Folder Pengumpulan
 
-Folder pengumpulan berisi video presentasi dan demo, proposal, serta laporan akhir.
+Folder pengumpulan berisi video presentasi dan demo, proposal, laporan akhir, serta data.
 
 ```text
 https://drive.google.com/drive/folders/1AsmoDpxuH_6szKrISmLHKA_n5pYosjvB?usp=sharing
