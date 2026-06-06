@@ -1,10 +1,10 @@
 """
 explanation.py — Explanation Facility untuk AquaCase Expert
 ===========================================================
-Menghasilkan penjelasan transparan tentang bagaimana sistem
+Menghasilkan penjelasan tentang bagaimana sistem
 mencapai kesimpulan diagnosis.
 
-OUTPUT WAJIB (sesuai spesifikasi):
+OUTPUT WAJIB:
     - pesan_utama        : sebut nama penyakit, CF, similarity secara eksplisit
     - aturan_aktif       : teks IF-THEN dari lookup KB (bukan hanya ID)
     - top_similar_cases  : 3 kasus + gejala cocok/tidak cocok
